@@ -1,0 +1,69 @@
+$fontColor: #444649;
+$color1: #252934;
+$color2: #39bdbf;
+
+.contact-container {
+  background-color: $color1;
+  padding-bottom: 100px;
+
+  .contact-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-title-container {
+    color: $color2;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .input-portfolio {
+    height: 40px;
+    background-color: #1f242c;
+    border: 0px !important;
+    width: 475px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .input-portfolio-mesage {
+    height: 100px;
+    background-color: #1f242c;
+    border: 0px !important;
+    width: 475px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .submit-btn-container {
+    border: 2px solid #fff;
+    height: 50px;
+    outline: none;
+    background-color: $color1;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .mail-icon {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 480px) {
+    .input-portfolio {
+      height: 40px;
+      background-color: #1f242c;
+      border: 0px !important;
+      width: 300px;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .input-portfolio-mesage {
+      height: 100px;
+      background-color: #1f242c;
+      border: 0px !important;
+      width: 300px;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
+}

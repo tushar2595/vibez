@@ -1,0 +1,97 @@
+$fontColor: #444649;
+$color1: #39c3c9;
+$color2: #616161;
+$color3: #eee;
+$color4: #2da1a8;
+.about-container {
+  .about-us-title-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .about-title {
+      color: $fontColor;
+      font-weight: bold;
+      font-size: 40px;
+      border-bottom: 2px solid $fontColor;
+      width: 100px;
+      padding: 5px;
+    }
+  }
+  .title-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .content-title {
+      font-size: 25px;
+      font-weight: bold;
+      color: $fontColor;
+    }
+  }
+  .content-para {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: $color2;
+  }
+  .menu-icon-container {
+    background-color: $color1;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .menu-item-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+  }
+  .self-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    .self-image {
+      height: 300px;
+      width: 300px;
+    }
+  }
+
+  .self-intro-title {
+    font-size: 18px;
+    color: $fontColor;
+    font-size: 30px;
+  }
+  .self-intro-container-title {
+    display: flex;
+    justify-content: center;
+  }
+  .self-intro {
+    color: $color2;
+    width: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .self-intro-container {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    color: $color1;
+  }
+
+  .skills-title {
+    background-color: $color1;
+    color: $color3;
+    display: flex;
+    align-items: center;
+  }
+  .skills-strength {
+    background-color: $color4;
+  }
+  .skills-container {
+    background-color: $color3;
+  }
+  .skill-row {
+    height: 40px;
+  }
+}

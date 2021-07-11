@@ -1,0 +1,10 @@
+$header-backgroud: #1b242f;
+$fontColor: #ffffff;
+$borderColor: #04c2c9;
+$hoverColor: #e31b6d;
+.link-route {
+  color: $fontColor !important;
+}
+.active-route {
+  color: $borderColor !important;
+}

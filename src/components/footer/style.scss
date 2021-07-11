@@ -1,0 +1,32 @@
+$color1: #1b242f;
+$color2: #ffffff;
+$color3: #435d5d;
+$color4: #252934;
+.footer-container {
+  background-color: $color1;
+  height: 60px;
+  color: $color2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px solid $color3;
+  .social-icon-container {
+    margin-top: 2px;
+    height: 45px;
+  }
+  .social-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .copy-right-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .name-container {
+    color: $color3;
+    display: flex;
+    .year-label {
+      color: #8c2c51;
+    }
+  }
+}

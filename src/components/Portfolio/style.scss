@@ -1,0 +1,35 @@
+$color1: #f5f5f5;
+$color2: #444649;
+$color3: #ffffff;
+
+.portfolio-container {
+  background-color: $color1;
+  margin: 20px;
+  padding-bottom: 120px;
+  .projects-title {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: $color2;
+  }
+  .project-image {
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+  }
+  .project-detail {
+    color: $color2;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: $color3;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .project-container {
+    // background-color: $color3;
+  }
+}
